@@ -27,8 +27,9 @@
         ],
         "import/prefer-default-export": "off",
         "class-methods-use-this": "off",
-        "indent": "off"
-        //"camelcase": "off"
+        "indent": "off",
+        "camelcase": "off",
+        "no-unused-vars":"off"
     },
     "settings": {
         "import/resolver": {
