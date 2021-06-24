@@ -19,7 +19,7 @@ app.use((err: AppError, request: Request, response: Response, _next: NextFunctio
       error: err.message,
     });
   }
-
+console.log(err);
   return response.status(500).json({
     status: 'error',
     message: 'Internal Server Error',
